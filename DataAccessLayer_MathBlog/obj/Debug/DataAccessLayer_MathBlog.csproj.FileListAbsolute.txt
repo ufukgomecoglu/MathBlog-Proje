@@ -1,0 +1,12 @@
+C:\Users\asus\source\repos\DataAccessLayer_MathBlog\bin\Debug\DataAccessLayer_MathBlog.dll
+C:\Users\asus\source\repos\DataAccessLayer_MathBlog\bin\Debug\DataAccessLayer_MathBlog.pdb
+C:\Users\asus\source\repos\DataAccessLayer_MathBlog\obj\Debug\DataAccessLayer_MathBlog.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\DataAccessLayer_MathBlog\obj\Debug\DataAccessLayer_MathBlog.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\DataAccessLayer_MathBlog\obj\Debug\DataAccessLayer_MathBlog.dll
+C:\Users\asus\source\repos\DataAccessLayer_MathBlog\obj\Debug\DataAccessLayer_MathBlog.pdb
+C:\Users\asus\OneDrive\Masaüstü\Proje\DataAccessLayer_MathBlog\bin\Debug\DataAccessLayer_MathBlog.dll
+C:\Users\asus\OneDrive\Masaüstü\Proje\DataAccessLayer_MathBlog\bin\Debug\DataAccessLayer_MathBlog.pdb
+C:\Users\asus\OneDrive\Masaüstü\Proje\DataAccessLayer_MathBlog\obj\Debug\DataAccessLayer_MathBlog.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Masaüstü\Proje\DataAccessLayer_MathBlog\obj\Debug\DataAccessLayer_MathBlog.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Masaüstü\Proje\DataAccessLayer_MathBlog\obj\Debug\DataAccessLayer_MathBlog.dll
+C:\Users\asus\OneDrive\Masaüstü\Proje\DataAccessLayer_MathBlog\obj\Debug\DataAccessLayer_MathBlog.pdb
