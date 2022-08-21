@@ -1,0 +1,274 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+.header {
+    font-family: sans-serif;
+    min-height: 100px;
+    background-color: #272727;
+    width: 100%;
+}
+
+    .header img {
+        float: left;
+        width: 15%;
+        height: 100px
+    }
+
+    .header h1 {
+        margin-left: 50px;
+        float: left;
+        margin-top: 20px;
+        color: #F2F2F2;
+    }
+
+    .header h3 {
+        float: left;
+        margin-top: 30px;
+        color: #F2F2F2;
+    }
+
+.user {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+}
+
+    
+
+    .user a {
+        border: 5px solid #5b5b5b;
+        text-decoration: none;
+        color: black;
+        background-color: #14A76C;
+        min-height: 30px;
+        text-align: center;
+        border-radius: 3px;
+        font-weight: 600;
+        font-size: 16pt
+    }
+
+        .user a:hover {
+            color: #ff652f;
+            border: 5px solid #ff652f;
+            background-color: #747474;
+        }
+
+.topMenu {
+    font-family: sans-serif;
+    min-height: 50px;
+    width: 100%;
+    background-color: #FF652F;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+.MainContainer {
+    margin-top: 100px;
+    padding-top: 50px;
+    width: 100%;
+    margin: 0px auto;
+    min-height: 500px;
+    background-color: #272727;
+}
+
+.ContentContainer {
+    margin-top: 100px;
+    padding-top: 90px;
+    width: 90%;
+    margin: 0px auto;
+    min-height: 500px;
+    background-color: ghostwhite;
+}
+
+    .ContentContainer:after { /*DIV'AŞAĞI DEVAM EDER'*/
+        content: "";
+        visibility: hidden;
+        display: block;
+        height: 0px;
+        clear: both;
+    }
+
+.Question {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    min-height: 350px;
+    height:max-content;
+    border-radius: 5px;
+    background-color: #13f917;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 15pt;
+}
+
+    .Question img {
+        border-radius: 50%;
+        
+    }
+
+.formContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 4px groove #ff652f;
+    border-radius: 10px;
+    min-height: max-content;
+    background-color: #919191
+}
+
+    .formContainer label {
+        font-family: sans-serif;
+        font-size: 15pt;
+        color: #FF652F;
+    }
+
+.error {
+    margin-top: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #747474;
+    min-height: 40px;
+    width: 80%;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14pt;
+    border: 3px solid
+}
+
+.textbox[type=text] {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    margin-top: 5px;
+    width: 80%;
+    min-height: 20px;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: #747474
+}
+
+.textbox[type=password] {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    margin-top: 5px;
+    width: 80%;
+    min-height: 20px;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: #747474;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    text-align: center;
+}
+
+.textbox[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.textbox[type=password]:focus {
+    border: 3px dashed #555;
+    border-radius: 5px;
+}
+
+.Button {
+    clear: both;
+    border: 5px solid #5b5b5b;
+    text-decoration: none;
+    color: black;
+    background-color: #14A76C;
+    min-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16pt;
+    width: 100%
+}
+
+    .Button:hover {
+        color: #ff652f;
+        border: 5px solid #ff652f;
+        background-color: #747474;
+    }
+
+.panel {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    min-height: 300px;
+    border: groove #FFBE15;
+    border-radius: 5%;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+}
+.label {
+    color: #ff652f;
+}
+.TextBox2 {
+    width: 80%;
+    min-height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px ridge solid;
+    border-radius: 100px;
+}

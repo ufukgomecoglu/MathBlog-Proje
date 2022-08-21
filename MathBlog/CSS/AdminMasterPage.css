@@ -1,0 +1,270 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+.header {
+    font-family: sans-serif;
+    min-height: 100px;
+    background-color: #272727;
+    width: 100%;
+}
+
+    .header img {
+        float: left;
+        width: 15%;
+        height: 100px
+    }
+
+    .header h1 {
+        margin-left: 50px;
+        float: left;
+        margin-top: 20px;
+        color: #F2F2F2;
+    }
+
+    .header h3 {
+        float: left;
+        margin-top: 30px;
+        color: #F2F2F2;
+    }
+
+.info {
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    color: #ff652f
+}
+
+    .info text {
+        text-decoration: none;
+    }
+
+    .info a {
+        padding: 8px;
+        color: black;
+        border-radius: 5px;
+        background-color: #14A76C;
+        border: 5px solid;
+        font-size: 14pt;
+        text-decoration: none;
+    }
+
+        .info a:hover {
+            background-color: #747474;
+            color: #FF652F
+        }
+
+
+
+.content {
+    width: 100%;
+    min-height: 800px;
+    background-color: #272727;
+    padding-top: 20px;
+}
+
+.topMenu {
+    font-family: sans-serif;
+    min-height: 50px;
+    width: 100%;
+    background-color: #FF652F;
+}
+
+.table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px ridge #B76A64;
+    background-color: ghostwhite;
+    border-radius: 11px;
+    opacity: 0.6;
+    margin-top: 0;
+}
+
+    .table:hover {
+        opacity: 0.9;
+    }
+
+    .table th {
+        text-align: center;
+        border-bottom: 2px solid #B76A64;
+        padding: 8px;
+        width: 4%
+    }
+
+    .table tr td {
+        text-align: center;
+        padding: 8px;
+        border-bottom: 1px ridge silver;
+    }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+.formContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 20px;
+    border: 4px groove #ff652f;
+    border-radius: 10px;
+    min-height: 400px;
+}
+
+    .formContainer label {
+        font-family: sans-serif;
+        font-size: 15pt;
+        color: #FF652F;
+    }
+
+.error {
+    margin-top: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #747474;
+    min-height: 40px;
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14pt;
+    border: 3px solid
+}
+
+.textbox[type=text] {
+    font-size: 15pt;
+    padding: 5px;
+    width: 330px;
+    color: black;
+    background-color: #F5D5A6;
+    opacity: 0.7;
+    min-height: 10px;
+    border-radius: 5px
+}
+
+.textbox[type=password] {
+    font-size: 15pt;
+    padding: 5px;
+    width: 330px;
+    color: black;
+    background-color: #F5D5A6;
+    opacity: 0.7;
+    min-height: 10px;
+    border-radius: 5px
+}
+
+.textbox[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.textbox[type=password]:focus {
+    border: 3px dashed #555;
+    border-radius: 5px;
+}
+
+.formButton {
+    margin-left: 20px;
+    background-color: #F1612B;
+    color: white;
+    font-size: 16pt;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 6px;
+    font-weight: 700;
+    opacity: 1 !important;
+}
+
+    .formButton:hover {
+        background-color: #747474;
+        color: white;
+        opacity: 1;
+    }
+
+.button {
+    margin-top: 3px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 10px;
+    color: black;
+    border-radius: 5px;
+    background-color: #14A76C;
+    border: 3px solid;
+    display: block;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+    .button:hover {
+        background-color: #747474;
+        color: #FF652F
+    }
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+    .active, .collapsible:hover {
+        background-color: #ff652f;
+        opacity: 0,9
+    }
+
+.collapsiblecontent {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,141 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #272727;
+    background-size: cover;
+}
+
+.panel {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    min-height: 300px;
+    border: groove #FFBE15;
+    border-radius: 5%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto
+}
+
+hr {
+    border: 3px solid #14A76C;
+    border-radius: 3px
+}
+
+.error {
+    margin-top: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #747474;
+    min-height: 40px;
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14pt;
+    border: 3px solid
+}
+
+.textbox[type=text] {
+    text-decoration: none;
+    margin-top: 5px;
+    width: 100%;
+    min-height: 20px;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: #747474
+}
+
+.textbox[type=password] {
+    text-decoration: none;
+    margin-top: 5px;
+    width: 100%;
+    min-height: 20px;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: #747474;
+    float: left
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    text-align: center;
+}
+
+.button {
+    margin-top: 3px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 10px;
+    color: black;
+    border-radius: 5px;
+    background-color: #14A76C;
+    border: 3px solid;
+    display: block;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+    .button:hover {
+        background-color: #747474;
+        color: #FF652F
+    }
+
+.link {
+    text-decoration: none;
+    color: #747474;
+    font-size: 15pt;
+    width: 100%
+}
+
+    .link:hover {
+        text-decoration: underline;
+        color: #FF652F;
+    }
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+}
+
+.table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px ridge #B76A64;
+    background-color: ghostwhite;
+    border-radius: 11px;
+    opacity: 0.6;
+    margin-top: 0;
+}
+
+    .table:hover {
+        opacity: 0.9;
+    }
+
+    .table th {
+        text-align: center;
+        border-bottom: 2px solid #B76A64;
+        padding: 8px;
+        width: 4%
+    }
+
+    .table tr td {
+        text-align: center;
+        padding: 8px;
+        border-bottom: 1px ridge silver;
+    }
+

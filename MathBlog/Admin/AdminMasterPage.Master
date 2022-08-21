@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMasterPage.master.cs" Inherits="MathBlog.Admin.AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../CSS/AdminMasterPage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="header">
+               <a href="AdminDefault.aspx"><img src="../Images/logo1.png" /></a>
+                <div class="info">
+                    <asp:Label ID="label_info" runat="server"  />&nbsp;|&nbsp;
+                <asp:LinkButton ID="linkbutton_exit" Text="Exit" runat="server" OnClick="linkbutton_exit_Click" />
+                </div>
+            </div>
+        </div>
+        <div class="topMenu">
+       
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="AdministratorAdd.aspx">Add Administrator </a>
+                    <a href="TopicAdd.aspx">Add Topic</a>
+                    <a href="QuestionAdd.aspx">Add Question</a>
+                    <a href="AdminList.aspx">List Admin</a>
+                    <a href="UserList.aspx">List User</a>
+                     <a href="TopicList.aspx">List Topic</a>
+                    <a href="QuestionList.aspx">List Question</a>
+                    <a href="AnswerList.aspx">List Answer</a>
+                     <a href="CommentList.aspx">List Comment</a>
+                </div>
+
+                <div id="main">
+                   
+                    <span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776; Admin Menu</span>
+                </div>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "20%";
+                        document.getElementById("main").style.marginLeft = "20%";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                    }
+                </script>
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
