@@ -392,7 +392,7 @@ namespace DataAccessLayer_MathBlog
                 mailMessage.Subject = "New Password | mathblog";
                 mailMessage.Body = $"Your new password {otp}";
                 SmtpClient smtpClient = new SmtpClient();
-                smtpClient.Credentials = new NetworkCredential("ufuk.gomecoglu@hotmail.com", "ufuk1991");
+                smtpClient.Credentials = new NetworkCredential("ufuk.gomecoglu@hotmail.com", "");
                 smtpClient.EnableSsl = true;
                 smtpClient.Port = 587;
                 smtpClient.Host = "smtp-mail.outlook.com";
